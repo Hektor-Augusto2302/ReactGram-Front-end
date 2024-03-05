@@ -1,0 +1,10 @@
+.img-post-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.comment-container {
+    max-height: 300px;
+    overflow-y: auto;
+}

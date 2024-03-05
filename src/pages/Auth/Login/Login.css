@@ -1,0 +1,27 @@
+.div-vh-login {
+    height: 80vh;
+}
+
+.form-div-control-login {
+    background-color: #000;
+    padding: 30px 30px;
+}
+
+.form-input-login:focus {
+    box-shadow: 10px 10px 10px 10px rgba(134, 130, 130, 0.3);
+}
+
+.text-link-login {
+    color: #5353d0;
+}
+
+.text-link:hover {
+    color: #22227c;
+}
+
+@media (max-width: 500px) {
+    .form-div-control-login {
+        background-color: #000;
+        padding: 30px 10px;
+    }
+}

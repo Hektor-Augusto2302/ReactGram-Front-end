@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #000;
+}
+
+.brand {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.search-form {
+    position: relative;
+    width: 20%;
+}
+
+.search-form svg {
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    color: #aaa;
+}
+
+.search-form input {
+    padding-left: 2.5em;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    color: #000;
+}
+
+.span-link {
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.span-link:hover {
+    color: #dbd9d9;
+}
+
+@media (max-width: 400px) {
+    .search-form input {
+        width: calc(100% + 40px);
+        padding-left: 1.5em;
+        margin-left: -20px;
+    }
+
+    .search-form svg {
+        left: -14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-collapse {
+        background-color: #000;
+        color: #fff;
+        position: absolute;
+        top: 100%;
+        left: 2px;
+        width: 100px;
+        z-index: 999;
+    }
+}

@@ -1,0 +1,12 @@
+.comment-container::-webkit-scrollbar {
+    width: 8px; /* Largura do scroll */
+}
+
+.comment-container::-webkit-scrollbar-track {
+    background: #000;
+}
+
+.comment-container::-webkit-scrollbar-thumb {
+    background-color: #800080;
+    border-radius: 4px;
+}
